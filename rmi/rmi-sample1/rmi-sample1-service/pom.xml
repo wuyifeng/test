@@ -5,6 +5,7 @@
         <groupId>wyf.rmi.test</groupId>
         <artifactId>rmi</artifactId>
         <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
     <groupId>wyf.rmi.test</groupId>
     <artifactId>rmi-sample1-service</artifactId>
