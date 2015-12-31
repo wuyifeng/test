@@ -197,4 +197,10 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+  <pluginRepositories>
+     <pluginRepository>
+        <id>onejar-maven-plugin.googlecode.com</id>
+        <url>http://30.10.118.145:8081/nexus/content/groups/public/</url>
+     </pluginRepository>
+  </pluginRepositories>
 </project>
