@@ -330,5 +330,7 @@
                 </includes>
             </testResource>
         </testResources>
+        <defaultGoal>compile</defaultGoal>
     </build>
+
 </project>
