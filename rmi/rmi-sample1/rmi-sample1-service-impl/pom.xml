@@ -13,9 +13,7 @@
     <version>${rmi-simple1-service-impl.version}</version>
     <name>rmi-sample1-service-impl</name>
     <url>http://maven.apache.org</url>
-    <repositories>
 
-    </repositories>
     <dependencies>
         <dependency>
             <groupId>wyf.rmi.test</groupId>
@@ -24,21 +22,4 @@
         </dependency>
     </dependencies>
 
-    <!--
-    <repositories>
-        <repository>
-            <id>nexus</id>
-            <name>Nexus</name>
-            <url>http://${nexus-ip.val}:8081/nexus/content/groups/public</url>
-        </repository>
-    </repositories>
-
-    <distributionManagement>
-        <repository>
-            <id>nexus</id>
-            <name>Nexus</name>
-            <url>http://${nexus-ip.val}:8081/nexus/content/groups/public</url>
-        </repository>
-    </distributionManagement>
-    -->
 </project>
