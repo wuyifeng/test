@@ -17,6 +17,7 @@
 
     </dependencies>
 
+    <!--
     <repositories>
         <repository>
             <id>nexus</id>
@@ -32,4 +33,5 @@
             <url>http://${nexus-ip.val}:8081/nexus/content/groups/public</url>
         </repository>
     </distributionManagement>
+    -->
 </project>
