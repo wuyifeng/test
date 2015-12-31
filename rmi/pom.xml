@@ -219,30 +219,6 @@
             </snapshots>
         </repository>
     </repositories>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>central</id>
-            <url>http://${nexus-ip.val}:8081/nexus/content/repositories</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </pluginRepository>
-        <pluginRepository>
-            <id>snapshots</id>
-            <url>http://${nexus-ip.val}:8081/nexus/content/repositories</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </pluginRepository>
-    </pluginRepositories>
-
     <distributionManagement>
         <repository>
             <id>central</id>
