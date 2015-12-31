@@ -205,6 +205,13 @@
         <module>rmi-sample1/rmi-sample1-client</module>
     </modules>
 
+    <repositories>
+        <repository>
+            <id>nexus</id>
+            <name>Nexus</name>
+            <url>http://${nexus-ip.val}:8081/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
     <distributionManagement>
         <repository>
             <id>nexus</id>
