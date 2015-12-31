@@ -9,6 +9,9 @@
     <url>http://maven.apache.org</url>
 
     <properties>
+
+        <nexus-ip.val>192.168.8.107</nexus-ip.val>
+
         <mysql.connector.version>5.1.21</mysql.connector.version>
         <spring.version>4.1.6.RELEASE</spring.version>
         <junit.version>4.12</junit.version>
@@ -201,4 +204,13 @@
         <module>rmi-sample1/rmi-sample1-server</module>
         <module>rmi-sample1/rmi-sample1-client</module>
     </modules>
+
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <name>Nexus</name>
+            <url>http://${nexus-ip.val}:8081/nexus/content/groups/public</url>
+        </repository>
+    </distributionManagement>
+
 </project>

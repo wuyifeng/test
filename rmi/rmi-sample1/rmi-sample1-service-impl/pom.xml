@@ -23,4 +23,13 @@
             <version>${rmi-simple1-service.version}</version>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <name>Nexus</name>
+            <url>http://${nexus-ip.val}:8081/nexus/content/groups/public</url>
+        </repository>
+    </distributionManagement>
+
 </project>
