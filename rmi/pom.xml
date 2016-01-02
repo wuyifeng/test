@@ -199,8 +199,8 @@
 
     <repositories>
         <repository>
-            <id>central</id>
-            <url>http://${nexus-ip.val}:8081/nexus/content/repositories/central</url>
+            <id>releases</id>
+            <url>http://${nexus-ip.val}:8081/nexus/content/repositories/releases</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -221,8 +221,8 @@
     </repositories>
     <distributionManagement>
         <repository>
-            <id>central</id>
-            <url>http://${nexus-ip.val}:8081/nexus/content/repositories/central</url>
+            <id>releases</id>
+            <url>http://${nexus-ip.val}:8081/nexus/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>

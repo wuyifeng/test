@@ -15,7 +15,7 @@ public class RmiSample1ServiceImpl extends UnicastRemoteObject implements RmiSam
 
     }
 
-    public Map<String,String> hello(String say){
+    public Map<String,String> hello(String say) throws RemoteException{
         System.out.println(say);
         Map<String,String> map=new HashMap<String,String>();
         map.put("name","ËÕ·ÆÂêË÷");
