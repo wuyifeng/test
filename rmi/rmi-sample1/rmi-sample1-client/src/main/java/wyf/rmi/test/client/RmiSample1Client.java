@@ -12,7 +12,7 @@ import java.rmi.RemoteException;
  */
 public class RmiSample1Client {
     public static void main(String[] args) {
-        String rmiAddr="rmi://localhost:8000/RmiSample1Service";
+        String rmiAddr="rmi://192.168.8.106:8000/RmiSample1Service";
         try {
             RmiSample1Service rmiService = (RmiSample1Service) Naming.lookup(rmiAddr);
             rmiService.hello("hi,ËÕ·ÆÂêË÷");
